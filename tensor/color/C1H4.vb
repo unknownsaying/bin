@@ -31,7 +31,7 @@ Public Class C5H8
 End Class
 
 Public Class C13H24
-    Implements IC13H24
+    Implements IC1H4
 
     Public ReadOnly Property CarbonCount As Integer Implements IC1H4.CarbonCount
             Return 13
