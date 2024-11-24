@@ -31,7 +31,7 @@ Public Class C6H8
 End Class
 
 Public Class C6H2
-    Implements IC2H2
+    Implements IC2H4
 
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 14
