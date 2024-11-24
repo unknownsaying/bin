@@ -1,6 +1,6 @@
 import './color.css'
-import './sphere.ts'
-import './tetrahedron.ts'
+import './sphere.vb'
+import './tetrahedron.vb'
 const c = 299792458
 interface Hydrocarbon {
     carbonCount: number;
