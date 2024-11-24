@@ -3,11 +3,11 @@ ReDim t7 As Async
 ReDim t8 As Await
 Function t7t8
       t7[
-       'm :: sh(0 + t7)' + 'n :: ch(0 - t8)'
+       'm :: sh(0 + t7)' + 'n :: ch(0 - t8)',
        'o :: sh(0 - t7)' + 'p :: ch(0 + t8)'
     ]
       t8[
-        'm :: sh(www + t7)' + 'n :: ch(www - t8)'
+        'm :: sh(www + t7)' + 'n :: ch(www - t8)',
         'o :: sh(www - t7)' + 'p :: ch(www + t8)'
      ]
 End Function
