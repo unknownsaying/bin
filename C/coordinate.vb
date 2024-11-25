@@ -1,7 +1,7 @@
 Declare Module X
 Declare Module Y
 Declare Module Z
-Function
+Function Sphere
     char radius,theta,fai;
     type X 
     typeof radius
