@@ -16,8 +16,8 @@ Case:
 Case:
     Or && not
 Case: 
-    And || Or
+    And || Not
 Case:
-    And == Not
+    And == Or
 
 End Function
