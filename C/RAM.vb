@@ -43,7 +43,7 @@ Module Program
         ' Read and display values from the virtual RAM
         Console.WriteLine("Value at address 0: " & ram.Read(0))
         Console.WriteLine("Value at address 1: " & ram.Read(1))
-        Console.WriteLine("Value at address 100: " & ram.Read(100))
+        Console.WriteLine("Value at address 128: " & ram.Read(127))
 
         ' Try to access an out-of-range address
         Try
