@@ -1,4 +1,3 @@
-
 Module Program
     Sub Main()
         ' Create a virtual disk with 1MB capacity
