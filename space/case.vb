@@ -1,4 +1,5 @@
 Function Switch 
+    
 Case:
     AddHandler && RemoveHandler 
 Case:
@@ -19,5 +20,5 @@ Case:
     And || Not
 Case:
     And == Or
-
+    
 End Function
