@@ -6,9 +6,9 @@ Function x3
         continue
 End Function
 Function y
-    for (let l = 0;l <= -9 && l >= 9; l++ || l--)
-        for(let m = 0;m <= -9 && m >= 9;m++ || m--)
-            for(let n = 0;n <= -9 && n >= 9;n++ || n--)
+    for (let l = 0;l <= -9 && l >= 9;++l || l--)
+        for(let m = 0;m <= -9 && m >= 9;++m || m--)
+            for(let n = 0;n <= -9 && n >= 9;++n || n--)
         break
 End Function
 Function z3 
