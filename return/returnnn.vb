@@ -7,7 +7,7 @@ Function t3t4
        'g % asin(0 - t3)' + 'h % acos(0 + t4)'
     ]
     t4[
-       'E % asin(www + t3)' + 'F % acos(www - t4)',
-       'G % asin(www - t3)' + 'H % acos(www + t4)'
+       'E % asin(wx + t3)' + 'F % acos(wx - t4)',
+       'G % asin(wx - t3)' + 'H % acos(wx + t4)'
     ]
 End Function
