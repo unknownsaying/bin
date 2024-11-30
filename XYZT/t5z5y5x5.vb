@@ -6,9 +6,9 @@ function x5
         break
 End Function
 function y5 
-    for (let L = 0; L <= -4 && L <= 4; ++L || L--)
-        for (let M = 0; M <= -4 && M <= 4; ++M || M--)
-            for (let N = 0; N <= -4 && N <= 4; ++N || N--)
+    for (let L = 0; L <= -4 && L >= 4; ++L || L--)
+        for (let M = 0; M <= -4 && M >= 4; ++M || M--)
+            for (let N = 0; N <= -4 && N >= 4; ++N || N--)
         continue
 End Function
 function z5
