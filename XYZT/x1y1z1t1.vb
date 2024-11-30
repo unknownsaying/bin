@@ -12,9 +12,9 @@ Function y1
         break
 End Function
 Function z1
-    for(let o = 0;o >= 3;o--)
-        for(let p = 0; p >= 3;p--)
-            for(let q = 0; q >= 3; q--)
+    for(let o = 0;o >= 3;--o)
+        for(let p = 0; p >= 3;--p)
+            for(let q = 0; q >= 3; --q)
         continue
 End Function
 Function t1
