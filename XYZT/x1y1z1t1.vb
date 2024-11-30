@@ -1,8 +1,8 @@
 Sub x1y1z1t1
 Function x1 
-    for (let i = 0; i <= 3; ++i)
-        for(let j = 0; i <= 3; ++j)
-            for(let k = 0; k <= 3; ++k)
+    for (let i = 0; i <= 3; i++)
+        for(let j = 0; i <= 3; j++)
+            for(let k = 0; k <= 3; k++)
         continue
 End Function
 Function y1
