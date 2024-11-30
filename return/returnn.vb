@@ -7,7 +7,7 @@ Function t1t2
        'c * sin(0 - t1)' + 'd * cos(0 + t2)'
     ]
      t2[
-       'A * sin(www + t1)' + 'B * cos(www - t2)',
-       'C * sin(www - t1)' + 'D * cos(www + t2)'
+       'A * sin(wx + t1)' + 'B * cos(wx - t2)',
+       'C * sin(wx - t1)' + 'D * cos(wx + t2)'
     ]
 End Function
