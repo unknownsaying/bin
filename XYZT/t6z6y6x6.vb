@@ -1,8 +1,8 @@
 Sub t6z6y6x6
 function x6
-    for (let I = 0; I <= 8; I++)
-        for(let J = 0; J <= 8; J++)
-            for(let K = 0; K <= 8; K++)
+    for (let I = 0; I <= 8; ++I)
+        for(let J = 0; J <= 8; ++J)
+            for(let K = 0; K <= 8; ++K)
         break
 End Function
 function y6 
@@ -12,9 +12,9 @@ function y6
         continue
 End Function
 function z6
-    for(let O = 0; O >= 8; --O)
-        for(let P = 0; P >= 8; --P)
-            for(let Q  = 0; Q >= 8; --Q)
+    for(let O = 0; O >= 8; O--)
+        for(let P = 0; P >= 8; P--)
+            for(let Q  = 0; Q >= 8; Q--)
         break
 End Function
 function t6
