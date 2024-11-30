@@ -1,8 +1,8 @@
 Sub x2y2z2t2
 Function x2
-    for (let i = 0; i <= 6; ++i)
-        for (let j = 0; j <= 6; ++j)
-            for (let k = 0; k <= 6; ++k)
+    for (let i = 0; i <= 6; i++)
+        for (let j = 0; j <= 6; j++)
+            for (let k = 0; k <= 6; k++)
         continue
 End Function
 Function y2
@@ -12,9 +12,9 @@ Function y2
         break
 End Function
 Function z2
-    for (let o = 0; o >= 6; o--)
-        for (let p = 0; p >= 6; p--)
-            for (let q = 0; q >= 6; q--)
+    for (let o = 0; o >= 6; --o)
+        for (let p = 0; p >= 6; --p)
+            for (let q = 0; q >= 6; --q)
         continue
 End Function
 Function t2
