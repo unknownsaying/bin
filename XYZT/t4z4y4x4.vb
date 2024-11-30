@@ -1,8 +1,8 @@
 Sub t4z4y4x4
 function x4 
-    for (let I = 0; I <= -2; I++)
-        for(let J = 0; J <= -2; J++)
-            for(let K = 0; K <= -2; K++)
+    for (let I = 0; I <= -2; ++I)
+        for(let J = 0; J <= -2; ++J)
+            for(let K = 0; K <= -2; ++K)
         break
 End Function
 function y4
