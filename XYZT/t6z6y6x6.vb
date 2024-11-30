@@ -6,9 +6,9 @@ function x6
         break
 End Function
 function y6 
-    for(let L = 0;-8 <= L && L <= 8; L++ || L--)
-        for(let M = 0;-8 <= M && M <= 8;M++ || M--)
-            for(let N = 0;-8 <= N && N <= 8; N++ || N--)
+    for(let L = 0;-8 <= L && L <= 8; L++ || --L)
+        for(let M = 0;-8 <= M && M <= 8;M++ || --M)
+            for(let N = 0;-8 <= N && N <= 8; N++ || --N)
         continue
 End Function
 function z6
