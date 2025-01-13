@@ -7,7 +7,7 @@ Function t9t10
        't - floor(0 - t9)' + 'uv - ceil(0 + t10)'
     ]
       t10[
-       'r - ceil(www + t9)' + 's - floor(www - t10)',
-       't - floor(www - t9)' + 'uv - ceil(www + t10)'
+       'R - ceil(www + t9)' + 'S - floor(www - t10)',
+       'T - floor(www - t9)' + 'UV - ceil(www + t10)'
     ]
 End Function
