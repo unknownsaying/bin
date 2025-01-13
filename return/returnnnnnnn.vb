@@ -7,7 +7,7 @@ Function t11t0
        'y ^ exp(0 - t11)' + 'z ^ log(0 + t0)'
     ]
      t0[
-       'w ^ exp(www + t11)' + 'x ^ log(www - t0)',
-       'y ^ exp(www - t11)' + 'z ^ log(www + t0)'
+       'W ^ exp(www + t11)' + 'X ^ log(www - t0)',
+       'Y ^ exp(www - t11)' + 'Z ^ log(www + t0)'
     ]
 End Function
