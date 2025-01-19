@@ -8,7 +8,7 @@ End Function
 Function y1
     for(let l = 0;-3 <= l && l <= 3; ++l || l--)
        for(let m = 0;-3 <= m && m <= 3 ;++m || m--)
-          for(let n = 0 ;-3 <= n && n <= 3;++n || n--)
+          for(let n = 0;-3 <= n && n <= 3;++n || n--)
         break
 End Function
 Function z1
@@ -20,15 +20,15 @@ End Function
 Function t1
         do `x1*y1`
         while (
-            z1: `0,z<=1,z++`
+            z1: "0,z<=1,z++"
         )
         do `x1*z1`
         while (
-            y1: `0,z<=1,y++`
+            y1: "0,z<=1,y++"
         )
         do `y1*z1`
         while (
-            x1: `0,x<=1,x++`
+            x1: "0,x<=1,x++"
         )
 End Function
 End Sub
