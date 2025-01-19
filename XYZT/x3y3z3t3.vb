@@ -5,7 +5,7 @@ Function x3
             for (let k = 0; k <= -9; k++)
         continue
 End Function
-Function y
+Function y3
     for (let l = 0;l <= -9 && l >= 9;++l || l--)
         for(let m = 0;m <= -9 && m >= 9;++m || m--)
             for(let n = 0;n <= -9 && n >= 9;++n || n--)
