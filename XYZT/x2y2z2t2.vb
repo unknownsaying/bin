@@ -28,7 +28,7 @@ Function t2
     )
     do `x2*y2`
     while (
-        x2:"0,z<=2,x++"
+        x2: "0,z<=2,x++"
     )
 End Function
 End Sub
