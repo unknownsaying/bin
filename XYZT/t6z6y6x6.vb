@@ -1,8 +1,8 @@
 Sub t6z6y6x6
 function x6
-    for (let I = 0; I <= 8; ++I)
-        for(let J = 0; J <= 8; ++J)
-            for(let K = 0; K <= 8; ++K)
+    for (let I = 0; I <= -8; ++I)
+        for(let J = 0; J <= -8; ++J)
+            for(let K = 0; K <= -8; ++K)
         break
 End Function
 function y6 
@@ -20,15 +20,15 @@ End Function
 function t6
     do `x6*y6`
     while (
-        z6: `0,z>=6,z--`
+        z6: "0,z>=6,z--"
     )
     do `x6*z6`
     while (
-        y6: `0,z>=6,y--`
+        y6: "0,z>=6,y--"
     )
     do `y6*z6`
     while (
-        x6: `0,x>=6,x--`
+        x6: "0,x>=6,x--"
     )
 End Function
 End Sub
