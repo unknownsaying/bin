@@ -7,7 +7,7 @@ function x4
 End Function
 function y4
     for(let L = 0;-2 <= L &&  L <= 2; L++ || --L)
-        for(let M = 0;-2 <= M && M <= 2;M++ || --M)
+        for(let M = 0;-2 <= M && M <= 2; M++ || --M)
             for(let N = 0;-2 <= N && N <= 2; N++ || --N) 
         continue       
 End Function
@@ -20,15 +20,15 @@ End Function
 function t4
     do `x4*y4`
     while (
-        z4: `0,z>=4,z--`
+        z4: "0,z>=4,z--"
     )
     do `x4*z4`
     while (
-        y4: `0,z>=4,y--`
+        y4: "0,z>=4,y--"
     )
     do `y4*z4`
     while (
-        x4: `0,x>=4,x--`
+        x4: "0,x>=4,x--"
     )
 End Function
 End Sub
