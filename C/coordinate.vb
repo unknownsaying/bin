@@ -3,13 +3,13 @@ Declare Module Y
 Declare Module Z
 Function Sphere
     char radius,theta,fai;
-    type X 
+    Dim X 
     typeof radius
-    type Y 
+    Dim Y 
     typeof radius * cos(theta)
-    type Z 
+    Dim Z 
     typeof radius * cos(theta) * sin(fai)
-    type T 
+    Dim T 
     typeof radius * cos(theta) * cos(fai)
 End Function
 Sub loop
