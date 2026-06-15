@@ -3,13 +3,13 @@ Declare Module Y
 Declare Module Z
 Function
     char radius,theta,fai;
-    type X 
+    typedef X 
     typeof radius
-    type Y 
+    typedef Y 
     typeof radius * cos(theta)
-    type Z 
+    typedef Z 
     typeof radius * cos(theta) * sin(fai)
-    type T 
+    typedef T 
     typeof radius * cos(theta) * cos(fai)
 End Function
 Sub loop
@@ -21,4 +21,3 @@ Sub loop
    for(e=00;e>f;--e)
    for(f=0;f>a;--f)
 End Sub
-
